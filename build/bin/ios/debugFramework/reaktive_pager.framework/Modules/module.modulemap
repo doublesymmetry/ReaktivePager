@@ -1,0 +1,6 @@
+framework module reaktive_pager {
+    umbrella header "reaktive_pager.h"
+
+    export *
+    module * { export * }
+}
