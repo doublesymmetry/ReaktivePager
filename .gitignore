@@ -63,6 +63,7 @@ hs_err_pid*
 # *.iml
 # *.ipr
 
+
 # CMake
 cmake-build-*/
 
@@ -130,6 +131,7 @@ build/
 .gradle
 local.properties
 *.iml
+*.lock
 
 # Visual Studio Code
 #
@@ -167,4 +169,5 @@ Pods/
 # Lambda
 lambda/
 /mobile/ios/OneBeat.app.dSYM.zip
+
 gradle.properties
