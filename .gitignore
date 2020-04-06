@@ -167,3 +167,4 @@ Pods/
 # Lambda
 lambda/
 /mobile/ios/OneBeat.app.dSYM.zip
+gradle.properties
