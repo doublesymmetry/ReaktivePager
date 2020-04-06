@@ -1,5 +1,3 @@
-package com.doublesymmetry.library.rx
-
 import com.badoo.reaktive.completable.CompletableCallbacks
 import com.badoo.reaktive.coroutinesinterop.asDisposable
 import com.badoo.reaktive.disposable.Disposable
