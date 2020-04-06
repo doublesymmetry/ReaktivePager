@@ -5,9 +5,9 @@
       <configuration version="3" platform="Native " allPlatforms="Native []" useProjectSettings="false" isTestModule="true" externalProjectId="reaktive-pager">
         <dependsOnModuleNames>reaktive-pager_commonTest</dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>com.example.reaktive-pager.iosMain</sourceSet>
-          <sourceSet>com.example.reaktive-pager.commonMain</sourceSet>
-          <sourceSet>com.example.reaktive-pager.commonTest</sourceSet>
+          <sourceSet>reaktive-pager_iosMain</sourceSet>
+          <sourceSet>reaktive-pager_commonTest</sourceSet>
+          <sourceSet>reaktive-pager_commonMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />
