@@ -1,5 +1,3 @@
-package com.doublesymmetry.library.rx
-
 import com.badoo.reaktive.observable.*
 import com.badoo.reaktive.subject.publish.PublishSubject
 
