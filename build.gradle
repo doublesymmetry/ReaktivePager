@@ -35,7 +35,7 @@ def BINTRAY_ORGINIZATION = "doublesymmetry"
 def ISSUE_URL = "https://github.com/DoubleSymmetry/ReaktivePager/issues"
 def SITE_URL = "https://github.com/DoubleSymmetry/ReaktivePager"
 def VCS_URL = "https://github.com/DoubleSymmetry/ReaktivePager.git"
-def LIBRARY_VERSION = "1.1"
+def LIBRARY_VERSION = "1.1.1"
 
 group GROUP_ID
 version LIBRARY_VERSION
