@@ -1,14 +1,31 @@
+[![Bintray](https://img.shields.io/bintray/v/doublesymmetry/maven/reaktive-pager)](https://bintray.com/doublesymmetry/maven/reaktive-pager/_latestVersion)
+[![License](https://img.shields.io/badge/License-Apache/2.0-blue.svg)](https://github.com/DoubleSymmetry/ReaktivePager/blob/master/LICENSE)
+
 # ReaktivePager
-ReaktivePager is a Kotlin multi-platform that helps handle paginated results in a reactive way.
+ReaktivePager is a Kotlin multi-platform library that helps handle paginated results in a reactive way.
 
 It is based on this [gist](https://gist.github.com/mttkay/24881a0ce986f6ec4b4d) from @mttkay.
 It uses [Reaktive](https://github.com/badoo/Reaktive) by @badoo as the backing Rx library.
 
 ## Installation
-TODO: 
+Add Bintray repository into your root build.gradle file:
+
+```groovy
+repositories {
+    maven {
+        url  "https://dl.bintray.com/doublesymmetry/maven"
+    }
+}
+```
+
+Add publication:
+
+```groovy
+implementation 'com.doublesymmetry:reaktive-pager:<latest-version>'
+```
 
 ## Usage
-There's two ways to use this library:. You can either create a `Pager` instance or use the `observablePage` method to create a paginated `Observable`.
+There's two ways to use this library: You can either create a `Pager` instance or use the `observablePage` method to create a paginated `Observable`.
 
 #### 1) Creating a `Pager` instance
 The `Pager` class contains an attribute `pager` that you can subscribe to. This will trigger `onNext` with the first page, and will continue to giving you the next page whenever you call `Pager.next()`. It will trigger `onComplete` when there is no more results to load. 
