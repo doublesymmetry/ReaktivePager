@@ -1,5 +1,8 @@
+[![Bintray](https://img.shields.io/bintray/v/doublesymmetry/maven/reaktive-pager)](https://bintray.com/doublesymmetry/maven/reaktive-pager/_latestVersion)
+[![License](https://img.shields.io/badge/License-Apache/2.0-blue.svg)](https://github.com/DoubleSymmetry/ReaktivePager/blob/master/LICENSE)
+
 # ReaktivePager
-ReaktivePager is a Kotlin multi-platform that helps handle paginated results in a reactive way.
+ReaktivePager is a Kotlin multi-platform library that helps handle paginated results in a reactive way.
 
 It is based on this [gist](https://gist.github.com/mttkay/24881a0ce986f6ec4b4d) from @mttkay.
 It uses [Reaktive](https://github.com/badoo/Reaktive) by @badoo as the backing Rx library.
