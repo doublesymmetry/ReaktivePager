@@ -1,4 +1,4 @@
-[![Bintray](https://img.shields.io/bintray/v/doublesymmetry/maven/reaktive-pager)](https://bintray.com/doublesymmetry/maven/reaktive-pager/_latestVersion)
+[![Bintray](https://img.shields.io/bintray/v/doublesymmetry/maven/reaktive-pager.svg)](https://bintray.com/doublesymmetry/maven/reaktive-pager/_latestVersion)
 [![License](https://img.shields.io/badge/License-Apache/2.0-blue.svg)](https://github.com/DoubleSymmetry/ReaktivePager/blob/master/LICENSE)
 
 # ReaktivePager
